@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: HelveticaLTStdBold;
+	src: url('fonts/HelveticaLTStdBold.otf');
+}
+
+body {
+	background-image: url(../imagenes/cuarta.jpg);
+	background-size: cover;
+}
+
+.contenido {
+	width: 800px;
+	margin: auto;
+}
+
+.menunav {
+	width: 800px;
+	margin: auto;
+}
+
+.botonMenu {
+	font-family: HelveticaLTStdBold;
+	color: #9dc404;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	width: 142px;
+	background-image: url(../imagenes/botones.jpg);
+	padding: 5px 10px 6px 8px;
+	float: left;
+	cursor: pointer;
+}
+
+.botonMenu:link {
+	color: #000000;
+	text-shadow: 1px 1px #000000;
+}
+
+.botonMenu:hover {
+	color: #060606;
+	text-shadow: 1px 1px #000000;
+	background-image: url(../imagenes/botones1.jpg);
+	cursor: pointer;
+}
+
+h1 {
+	/* titulares y caracteristicas */
+	font-family: HelveticaLTStdBold;
+	color: #00fc11;
+	font-size: 36px;
+	font-weight: bold;
+	text-shadow: 1px 1px #000000;
+	text-align: left;
+	max-width: 800px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+h1:link {
+	color: #2ff503;
+	cursor: pointer;
+
+}
+
+h2 {
+	font-family: HelveticaLTStdBold;
+	/* estos son caracteristicas de los titulos */
+	color: #15f704;
+	font-size: 24px;
+	font-weight: normal;
+	text-shadow: 1px 1px #000000;
+	text-align: left;
+	margin: auto;
+	max-width: 640px;
+	padding: 44px 10px 2px 10px;
+}
+
+h6 {
+	color: #06f536;
+	text-shadow: 1px 1px #000000;
+	font-size: 10px;
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 626px;
+}
+
+a:link {
+	color: #ffff05;
+	/* color del link sin abrir */
+	text-decoration: none;
+}
+
+a:hover {
+	/* cuando el cursor esta sobre la palabra*/
+	color: #ffbb00;
+	text-shadow: 1px 1px #fdfd03;
+}
+
+a:visited {
+	/* vinculo visitado */
+	color: #eef19a;
+}
+
+.foto {
+	position: relative;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+.uno {
+	position: relative;
+	max-width: 520px;
+	left: 10px;
+	font-family: HelveticaLTStdBold;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: justify;
+	color: #0cff04;
+	text-shadow: 1px 1px #000000;
+}
+
+.dos {
+	position: relative;
+	max-width: 680px;
+	top: 20px;
+	margin: auto;
+}
+
+.tres {
+	position: relative;
+	float: left;
+	top: 10px;
+	box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.cuatro {
+	position: relative;
+	float: left;
+	top: 20px;
+	max-width: 600px;
+	box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5);
+	margin-left: 50px;
+}
+
+
+@media only screen and (max-width: 800px) {
+	.botonMenu {
+		width: 90%;
+		margin: auto;
+	}
+
+	img {
+		width: 90%;
+	}
+}
+
+@media only screen and (min-width: 800) and (max-width: 1200) {
+	.botonMenu {
+		width: 50%;
+		margin: auto;
+	}
+}
+
+@media only screen and (min-width: 1200) {
+	.botonMenu {
+		width: 20%;
+		margin: auto;
+	}
+}
