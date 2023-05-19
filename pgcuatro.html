@@ -12,11 +12,18 @@
 <body>
     <div class="contenido">
         <h1><a href="inicio.html" target="_self">Hostal Suachia</a></h1>
-        <nav class="menunav">
+        <!-- Menu -->
+        <input id="abrir-cerrar" name="abrir-cerrar" type="checkbox" value="" onclick="openMenu()" />
+        <label for="abrir-cerrar" class="toggle-button">
+            <span class="cerrar" title="Cerrar">Cerrar</span>
+            <span class="abrir" title="Abrir">Abrir</span>
+        </label>
+        <nav class="menunav" id="menunav">
             <a class="botonMenu" href="pguno.html" target="_self">Ubicacion</a>
             <a class="botonMenu" href="pgdos.html" target="_self">Personajes</a>
             <a class="botonMenu" href="pgtres.html" target="_self">Actividades</a>
             <a class="botonMenu" href="pgcuatro.html" target="_self">Historia</a>
+            <a class="botonMenu" href="./mapa-interactivo/index.html" target="_self">Mapa</a>
             <a class="botonMenu" href="creditos.html" target="_self">Creditos</a>
         </nav>
         <h2>HISTORIA DEL LUGAR</h2>
@@ -31,6 +38,8 @@
                 otros aires.
             </p>
         </div>
+        <!-- scrips -->
+        <script src="./index.js"></script>
 </body>
 
 </html>
